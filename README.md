@@ -22,7 +22,7 @@
 </ul><ul>
 <li>NodeJS</li>
 </ul><h2>Screenshots</h2>
-<p><a href="https://jmcarvajalj.github.io/notes-app/" target="_blank"><img src="https://i.imgur.com/XDugMiL.png" alt=""></a><a href="https://jmcarvajalj.github.io/notes-app/" target="_blank"><img src="https://i.imgur.com/Tq63EPb.png" alt=""></a></p><a href="https://jmcarvajalj.github.io/notes-app/" target="_blank"><img src="https://i.imgur.com/YYyORz7.png" alt=""></a><h2>Setup</h2>
+<a href="https://jmcarvajalj.github.io/notes-app/" target="_blank"><img src="https://i.imgur.com/XDugMiL.png" alt=""></a><a href="https://jmcarvajalj.github.io/notes-app/" target="_blank"><img src="https://i.imgur.com/Tq63EPb.png" alt=""></a><a href="https://jmcarvajalj.github.io/notes-app/" target="_blank"><img src="https://i.imgur.com/YYyORz7.png" alt=""></a><h2>Setup</h2>
 <p>This React app was made using Vite.</p><h5>Steps</h5><ul>
 <li>Clone the repository.</li>
 </ul><ul>
