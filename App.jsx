@@ -1,14 +1,14 @@
-import React from "react"
+import { useState, useEffect } from "react"
 import Sidebar from "./components/Sidebar"
 import Editor from "./components/Editor"
 import Split from "react-split"
 import { nanoid } from "nanoid"
 
 export default function App() {
-    const [notes, setNotes] = React.useState(
+    const [notes, setNotes] = useState(
         () => JSON.parse(localStorage.getItem("notes")) || []
     )
-    const [currentNoteId, setCurrentNoteId] = React.useState(
+    const [currentNoteId, setCurrentNoteId] = useState(
         (notes[0]?.id) || ""
     )
     
@@ -16,7 +16,7 @@ export default function App() {
         notes.find(note => note.id === currentNoteId) 
         || notes[0]
 
-    React.useEffect(() => {
+    useEffect(() => {
         localStorage.setItem("notes", JSON.stringify(notes))
     }, [notes])
 
